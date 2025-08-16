@@ -53,18 +53,23 @@ The goal is to create  an isolated environment without affecting the main system
    - RAM: `4 GB` (4096 MB)
    - Storage: `40 GB`
 5. Enable **Network** with Bridged or Shared mode.
-6. Finish setup.
+6. The **shared directory** browse 'desktop' or create a folder that the Kali Linux VM (guest) could access on the Mac (host).
+7. Finish setup.
 
 ---
 
 ### 4.5 Boot & Install Kali Linux
 1. Start the VM.
 2. Select **Install Kali** from the boot menu.
-3. Follow the installation prompts:
+3. select **edit** then *new* then *serial* and click *save*. That will open the terminal.
+4. Follow the installation prompts on the terminal:
    - Set up language, timezone, and keyboard layout.
-   - Create a username and password.
-   - Partition disk (use guided setup).
-4. Wait for installation to complete and reboot.
+   - Create a domain name *Kali*.
+   - Create username and password.
+   - Partition disk (use guided- entire disk setup).
+   - All files on one partition
+5. Wait for installation to complete.
+6. Click exit. Close windows. Clear ISO image. (CD/DVD option clear). Restart.
 
 ## 5. Verification
 ###5.1 Kali Linux
@@ -73,6 +78,8 @@ Run the following commands in the Kali terminal to confirm installation:
 uname -m # Should return arm64 or aarch64
 lsb_release -a
 ```
+<img width="1728" height="1117" alt="Screenshot 2025-08-16 at 4 58 05 PM" src="https://github.com/user-attachments/assets/91f337ae-0ffe-4c5f-9377-a1dfea917d79" />
+
 ---
 
 ###5.2 Windows 11
