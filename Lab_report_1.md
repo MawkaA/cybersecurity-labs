@@ -1,5 +1,5 @@
-#Lab report: installing and setting up a Virtual Machine on MacOS / Apple Silicon host (arm64)
-**Date:**2025-08-15
+#Lab report: Installing and setting up Kali Linux and Windows 11  Virtual Machines on MacOS / Apple Silicon host (arm64).
+**Date:**2025-08-16
 **Lab Objective:**
 Set up a virtual machine on MacOS to run a cybersecurity lab environment.
 
